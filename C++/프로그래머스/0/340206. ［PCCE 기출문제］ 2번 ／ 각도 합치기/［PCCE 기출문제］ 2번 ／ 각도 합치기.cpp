@@ -8,6 +8,9 @@ int main(void) {
     cin >> angle1 >> angle2;
     
     int sum_angle = angle1 + angle2;
-    cout << sum_angle % 360 << endl;
+    
+    // 각도의 합을 360도로 나눈 나머지를 구하면 풀리는 문제
+    cout << sum_angle % 360 << endl; 
+    
     return 0;
 }
