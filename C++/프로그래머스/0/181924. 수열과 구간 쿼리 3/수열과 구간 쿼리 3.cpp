@@ -12,6 +12,8 @@ vector<int> solution(vector<int> arr, vector<vector<int>> queries) {
         tmp = answer[a[0]];
         answer[a[0]] = answer[a[1]];
         answer[a[1]] = tmp;
-    }  
+        
+        // swap(answer[a[0]], answer[a[1]]);
+    }
     return answer;
 }
