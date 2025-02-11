@@ -9,5 +9,8 @@ string solution(string my_string, int k) {
     for(int i = 0 ; i < k ; i++)
         answer += my_string;
     
+    // while (k--)
+    //     answer.append(my_string);
+    
     return answer;
 }
