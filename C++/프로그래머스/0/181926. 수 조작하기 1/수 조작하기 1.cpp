@@ -4,18 +4,18 @@
 using namespace std;
 
 int solution(int n, string control) {
-    int answer = 0;
+    int answer = n;
     
     for(const auto str : control)
     {
         if(str == 'w')
-            n += 1;
+            answer += 1;
         else if(str == 's')
-            n -= 1;
+            answer -= 1;
         else if(str == 'd')
-            n += 10;
+            answer += 10;
         else
-            n -= 10;
+            answer -= 10;
     }
-    return n;
+    return answer;
 }
