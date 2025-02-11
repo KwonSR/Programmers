@@ -11,8 +11,5 @@ int solution(int a, int d, vector<bool> included) {
         if(included[i] == true)
             answer += (a+ (d*i));
     }
-    
-    
-    
     return answer;
 }
