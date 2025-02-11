@@ -6,14 +6,18 @@ using namespace std;
 int solution(int a, int b) {
     int answer = 0;
     
-    string tmp_answer1 = to_string(a) + to_string(b);
-    string tmp_answer2 = to_string(b) + to_string(a);
+    //(1) 
+    string string_ab = to_string(a) + to_string(b);
+    string string_ba = to_string(b) + to_string(a);
     
-    if(stoi(tmp_answer1) > stoi(tmp_answer2))
-        answer = stoi(tmp_answer1);
+    if(stoi(string_ab) > stoi(string_ba))
+        answer = stoi(string_ab);
     else
-        answer = stoi(tmp_answer2); 
+        answer = stoi(string_ba);
     
+    // answer = stoi(string_ab) > stoi(string_ba)? stoi(string_ab) : stoi(string_ba);
     
     return answer;
+    // (2)
+    // return max(stoi(to_string(a)+to_string(b)),stoi(to_string(b)+to_string(a)));
 }
