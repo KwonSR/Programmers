@@ -22,16 +22,7 @@ string solution(string code) {
                 answer += code[i];
             else if(code[i] == '1')
                 mode = !mode;
-        }
-        
-        
-        
-        
-        
-        
+        }    
     }
-    
-    
-    
     return answer.size() > 0 ? answer : "EMPTY";
 }
