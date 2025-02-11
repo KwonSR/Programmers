@@ -13,4 +13,6 @@ int solution(int a, int b) {
         answer = 2*a*b;
     
     return answer;
+    // (2)
+    // return max(stoi(to_string(a)+to_string(b)), 2*a*b);
 }
