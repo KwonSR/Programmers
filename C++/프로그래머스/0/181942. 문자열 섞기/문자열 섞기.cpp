@@ -10,6 +10,8 @@ string solution(string str1, string str2) {
     {
         answer += str1[i];
         answer += str2[i];
+        
+        //answer += str1.substr(i,1) + str2.substr(i,1);
     }    
     return answer;
 }
