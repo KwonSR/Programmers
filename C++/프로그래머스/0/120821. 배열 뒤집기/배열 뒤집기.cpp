@@ -8,4 +8,6 @@ vector<int> solution(vector<int> num_list) {
     for(int i = num_list.size()-1 ; i >= 0 ; i--)
         answer.push_back(num_list[i]);
     return answer;
+    
+    // return vector<int> (num_list.rbegin(), num_list.rend());
 }
