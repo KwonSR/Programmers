@@ -6,9 +6,8 @@ using namespace std;
 string solution(string my_string) {
     string answer = "";
     
-    int len = my_string.size()-1;
-    for(int i = 0 ; i <= len ; i++)
-        answer.push_back(my_string[len-i]);
+    for(int i = my_string.size()-1 ; i>=0 ; i--)
+        answer += my_string[i];
     
     return answer;
 }
