@@ -5,7 +5,7 @@ using namespace std;
 
 string solution(string my_string) {
     string answer = "";
-    
+    // (1)    
     for(auto s : my_string)
     {
         switch(s)
@@ -20,5 +20,12 @@ string solution(string my_string) {
                 answer.push_back(s);
         }
     }
+    
+    // (2)
+    // for(auto s : my_string)
+    // {
+    //     if(s!='a' && s!='e' && s!='i' && s!='o' && s!='u')
+    //         answer += s;
+    // }
     return answer;
 }
