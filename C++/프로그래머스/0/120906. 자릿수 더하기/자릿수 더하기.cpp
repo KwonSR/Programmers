@@ -5,15 +5,10 @@ using namespace std;
 
 int solution(int n) {
     int answer = 0;
-    while(true)
+    while(n > 0)
     {
-        if(n>0)
-        {
-            answer += (n%10);
-            n /= 10;            
-        }
-        else 
-            break;
+        answer += n % 10;
+        n /= 10;
     }
     return answer;
 }
