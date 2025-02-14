@@ -1,10 +1,10 @@
 # [level 0] 대문자와 소문자 - 120893 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120893#qna) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120893?language=cpp) 
 
 ### 성능 요약
 
-메모리: 4.13 MB, 시간: 0.01 ms
+메모리: 4.18 MB, 시간: 0.01 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 02월 14일 15:03:56
+2025년 02월 14일 15:07:17
 
 ### 문제 설명
 
