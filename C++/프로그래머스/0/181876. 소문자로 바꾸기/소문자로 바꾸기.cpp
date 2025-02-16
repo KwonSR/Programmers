@@ -13,6 +13,10 @@ string solution(string myString) {
         else
             answer.push_back(s);
     }
+
+    // for(int i = 0; i < myString.size(); i++){
+    //     answer.push_back(tolower(myString[i]));
+    // }
     
     return answer;
 }
