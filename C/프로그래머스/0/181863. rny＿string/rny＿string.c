@@ -9,10 +9,10 @@ char* solution(const char* rny_string) {
     for(int i = 0 ; i < strlen(rny_string) ; i++)
     {
         if(rny_string[i] == 'm')
-            m_count++;
+            m_count += 1;
     }
     
-    char* answer = (char*)malloc(((sizeof(rny_string))*sizeof(char)) + 200);
+    char* answer = (char*)malloc(     (strlen(rny_string) + (m_count)*2) * sizeof(char)     );
     
     int idx = 0;
     for(int i = 0 ; i < strlen(rny_string) ; i++)
