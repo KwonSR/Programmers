@@ -28,4 +28,10 @@ int solution(const char* myString, const char* pat) {
     } p[len_2] = '\0';
     
     return strstr(str, p) != NULL ? 1 : 0;
+    
+    
+    //(2)
+    // return strcasestr(myString, pat) ? 1 : 0;
 }
+
+

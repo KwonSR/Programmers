@@ -1,10 +1,10 @@
 # [level 0] 원하는 문자열 찾기 - 181878 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181878#qna) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181878?language=c) 
 
 ### 성능 요약
 
-메모리: 4.39 MB, 시간: 0.06 ms
+메모리: 4.47 MB, 시간: 0.09 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 02월 17일 23:47:17
+2025년 02월 17일 23:48:40
 
 ### 문제 설명
 
