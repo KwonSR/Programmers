@@ -6,7 +6,10 @@
 int solution(const char* myString, const char* pat) {
     int answer = 0;
     
-    char *string = myString;
+    int len = strlen(myString);
+    char *string = (char*)malloc(sizeof(char) * len);
+    memcpy(string, myString, len);
+    
     for(int i = 0 ; i < strlen(string); i++)
     {
         if(string[i] == 'A')
