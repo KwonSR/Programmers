@@ -8,12 +8,10 @@ string solution(string myString) {
     
     for(auto s : myString)
     {
-        if(s == 'a')
+        if(s == 'a' || s == 'A')
             answer += toupper(s);
-        else if(s >= 'B' && s <= 'Z')
-            answer += s + 32;
         else
-            answer += s;
+            answer += tolower(s);
     }
     
     return answer;
