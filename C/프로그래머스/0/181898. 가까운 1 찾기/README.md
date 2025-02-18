@@ -1,6 +1,6 @@
 # [level 0] 가까운 1 찾기 - 181898 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181898) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181898?language=c) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 02월 18일 17:24:20
+2025년 02월 18일 17:25:39
 
 ### 문제 설명
 
