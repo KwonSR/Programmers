@@ -1,10 +1,10 @@
 # [level 0] 배열 만들기 1 - 181901 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181901) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181901?language=c) 
 
 ### 성능 요약
 
-메모리: 4.3 MB, 시간: 4.03 ms
+메모리: 4.4 MB, 시간: 0.72 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 02월 18일 17:46:21
+2025년 02월 18일 17:48:44
 
 ### 문제 설명
 
