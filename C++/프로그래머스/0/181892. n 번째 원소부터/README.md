@@ -1,10 +1,10 @@
 # [level 0] n 번째 원소부터 - 181892 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181892) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181892?language=cpp) 
 
 ### 성능 요약
 
-메모리: 4.15 MB, 시간: 0.02 ms
+메모리: 4.13 MB, 시간: 0.02 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 02월 18일 17:29:20
+2025년 02월 18일 17:29:58
 
 ### 문제 설명
 
