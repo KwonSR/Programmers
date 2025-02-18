@@ -6,9 +6,8 @@ using namespace std;
 vector<int> solution(int n, int k) {
     vector<int> answer;
     
-    int size = n/k;
-    for(int i = 1 ; i <= size ; i++)
-        answer.push_back(i*k);
+    for(int i = k ; i <= n ; i+=k)
+        answer.push_back(i);
     
     return answer;
 }
