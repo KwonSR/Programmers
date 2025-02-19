@@ -16,4 +16,7 @@ string solution(string n_str) {
     }
     
     return string(n_str.begin() + idx, n_str.end());
+    // (2)
+    // n_str(string) -> convert int -> remove 0 -> convert int to string
+    // string answer = to_string(stoi(n_str));
 }
