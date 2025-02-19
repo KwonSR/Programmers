@@ -49,4 +49,14 @@ char** solution(const char* my_string) {
     }
     
     return answer;
+    
+    // char** answer = (char**)malloc(sizeof(char*)*500);
+    // char* temp;
+    // temp = strtok(my_string," ");
+    // int i = 0;
+    // while(temp!=NULL){
+    //     answer[i++] = temp;
+    //     temp = strtok(NULL, " ");
+    // }
+    // return answer;
 }
