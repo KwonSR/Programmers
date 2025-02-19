@@ -12,8 +12,5 @@ char* solution(const char* my_string, int m, int c) {
     for(int i = 0 ; i < (len/m) ; i++)
         answer[i] = my_string[i*m + c - 1];
     
-    // for(int i = 0 ; i < (len/m) ; i++)
-        // answer[i] = 
-    
     return answer;
 }
