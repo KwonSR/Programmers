@@ -13,5 +13,5 @@ int solution(int n) {
             v = i;
     }
     
-    return ((n*6)/v)/6;
+    return n/v;
 }
