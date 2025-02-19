@@ -13,4 +13,7 @@ int solution(int num, int k) {
     }
     
     return -1;
+    
+    // int idx = to_string(num).find(k + '0') + 1;
+    // return idx ? idx : -1;
 }
