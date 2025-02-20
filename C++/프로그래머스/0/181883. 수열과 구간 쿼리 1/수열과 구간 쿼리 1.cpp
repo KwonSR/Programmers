@@ -14,5 +14,11 @@ vector<int> solution(vector<int> arr, vector<vector<int>> queries) {
             answer[j]++;
     }
     
+    // for(const auto& q : queries)
+    // {
+    //     for(int i = q[0] ; i <= q[1] ; ++i)
+    //         arr[i]++;
+    // }
+    
     return answer;
 }
