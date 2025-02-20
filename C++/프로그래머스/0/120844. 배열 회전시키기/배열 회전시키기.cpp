@@ -11,4 +11,22 @@ vector<int> solution(vector<int> numbers, string direction) {
         rotate(numbers.begin(), numbers.begin() + 1, numbers.end());
     
     return numbers;
+    
+    
+//     vector<int> answer;
+    
+//     if(direction == "right")
+//     {
+//         answer.push_back(numbers.back());
+//         for(int i = 0 ; i < numbers.size() - 1 ; i++)
+//             answer.push_back(numbers[i]);
+//     }
+//     else
+//     {
+//         for(int i = 1 ; i < numbers.size() ; i++)
+//             answer.push_back(numbers[i]);
+//         answer.push_back(numbers.front());
+//     }
+
+//     return answer;
 }
