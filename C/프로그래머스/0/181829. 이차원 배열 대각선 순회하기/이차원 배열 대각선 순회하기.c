@@ -12,6 +12,8 @@ int solution(int** board, size_t board_rows, size_t board_cols, int k) {
         {
             if(i + j <= k)
                 answer += board[i][j];
+            else
+                break;
         }
     }
     
