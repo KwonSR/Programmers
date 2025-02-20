@@ -1,10 +1,10 @@
 # [level 0] 수열과 구간 쿼리 1 - 181883 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181883) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181883?language=c) 
 
 ### 성능 요약
 
-메모리: 4.45 MB, 시간: 0.21 ms
+메모리: 4.21 MB, 시간: 0.25 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 02월 21일 00:15:55
+2025년 02월 21일 00:17:21
 
 ### 문제 설명
 
