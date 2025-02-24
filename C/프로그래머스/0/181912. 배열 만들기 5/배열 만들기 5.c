@@ -24,7 +24,7 @@ int* solution(const char* intStrs[], size_t intStrs_len, int k, int s, int l) {
             answer[idx++] = num;        
     }
     
-    answer = (int*)realloc(answer, sizeof(int) * idx);
+    realloc(answer, sizeof(int) * idx);
     
     return answer;
 }
