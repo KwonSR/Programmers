@@ -7,22 +7,27 @@ char** solution(const char* myString) {
     // return 값은 malloc 등 동적 할당을 사용해주세요. 할당 길이는 상황에 맞게 변경해주세요.
     char** answer = (char**)malloc(sizeof(char*) * 100001);
     
+    //strtok()를 이용함
     char *tmp = strtok(myString, "x");
+
     int idx = 0;
-    
     while(tmp != NULL)
     {
         int len = strlen(tmp);
+        // 자른 문자열의 길이만큼 malloc 해주고
         answer[idx] = (char*)malloc(sizeof(char) * (len + 1));
+        // answer에 tmp(자른 문자열)의 데이터를 복사해줌
         for(int i = 0 ; i < len ; i++)
             answer[idx][i] = tmp[i];
+        // 마지막에 널문자 추가
         answer[idx][len] = '\0';
         idx++;
-        
+        // 다시 strtok를 이용해 x를 찾기
         tmp = strtok(NULL, "x");
     }
     answer[idx] = '\0';
     
+    // 정렬 부분 (오름차순)
     for(int i = 0 ; i < idx-1 ; i++)
     {
         char *tmp;
