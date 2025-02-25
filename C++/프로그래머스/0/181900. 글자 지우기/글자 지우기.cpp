@@ -15,5 +15,12 @@ string solution(string my_string, vector<int> indices) {
             continue;
     }
     
+//     for(auto i : indices)
+//         my_string[i] = ' ';
+
+//     for(auto str : my_string)
+//         if(str != ' ')
+//             answer += str;
+    
     return answer;
 }
