@@ -8,13 +8,11 @@ int solution(int i, int j, int k) {
     for(int n = i ; n <= j ; n++)
     {
         int num = n;
-        while(1)
+        while(num != 0)
         {
             if(num % 10 == k)
                 answer++;
             num /= 10;
-            
-            if(num == 0) break;           
         }
     }
     
