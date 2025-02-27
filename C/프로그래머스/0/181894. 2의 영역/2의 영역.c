@@ -23,14 +23,18 @@ int* solution(int arr[], size_t arr_len) {
             break;
         }
     }
-        
-    int len = last_2 - first_2 + 1;
-    int* answer = (int*)malloc(sizeof(int) * len);
+    
+    int* answer;
     
     if(first_2 == -1)
-        *answer = -1;
+    {
+        answer = (int*)malloc(sizeof(int));
+        answer[0] = -1;
+    }
     else if(first_2 >= 0 && last_2 >= 0)
     {
+        int len = last_2 - first_2 + 1;
+        answer = (int*)malloc(sizeof(int) * len);
         for(int i = first_2 ; i <= last_2 ; i++)
             answer[i - first_2] = arr[i];
     }
