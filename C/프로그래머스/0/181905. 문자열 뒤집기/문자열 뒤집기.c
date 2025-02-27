@@ -8,16 +8,12 @@ char* solution(const char* my_string, int s, int e) {
     int len = strlen(my_string);
     char* answer = (char*)malloc(sizeof(char) * (len + 1));
     answer[len] = '\0';
-
-    int idx = 0;
-    for(int i = 0 ; i < s ; i++)
-        answer[idx++] = my_string[i];
-
-    for(int j = e ; j >= s ; j--)
-        answer[idx++] = my_string[j];
-
-    for(int i = e+1 ; i < len ; i++)
-        answer[idx++] = my_string[i];  
     
+    strcpy(answer, my_string);
+    int idx = e;
+    
+    for(int i = s ; i <= e ; i++)
+        answer[i] = my_string[idx--];
+
     return answer;
 }
