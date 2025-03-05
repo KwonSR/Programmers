@@ -4,18 +4,15 @@
 using namespace std;
 
 string solution(vector<string> seoul) {
-    string answer = "김서방은 ";
-    int idx = 0;
+    string answer;
     for(int i = 0 ; i < seoul.size() ; i++)
     {
         if(seoul[i] == "Kim")
         {
-            idx = i;
+            answer="김서방은 " + to_string(i) + "에 있다";
             break;
         }
     }
-    answer += to_string(idx);
-    answer += "에 있다";
     
     return answer;
 }
